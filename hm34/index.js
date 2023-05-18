@@ -7,7 +7,7 @@ function* getPartsOfWord (string) {
         symbol = symbol ?? ''
         symbol = yield word + symbol;
     }
-    yield word
+    return word;
     
   }
   
